@@ -17,4 +17,9 @@ public class TripController {
     public List<TripModel>  getAllTrip(){
         return (tripService.getAllTrip());
     }
+
+    @GetMapping("/byId")
+    public TripModel getTripById(long id){
+        return tripService.getTripById(id);
+    }
 }

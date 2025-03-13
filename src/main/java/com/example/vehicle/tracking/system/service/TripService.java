@@ -18,4 +18,7 @@ public class TripService {
     }
 
 
+    public TripModel getTripById(long id) {
+        return tripRepo.findById(id);
+    }
 }
