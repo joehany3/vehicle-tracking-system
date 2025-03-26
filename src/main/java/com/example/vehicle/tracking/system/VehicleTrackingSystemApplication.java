@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class VehicleTrackingSystemApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(VehicleTrackingSystemApplication.class, args);
+		SpringApplication.
+				run(VehicleTrackingSystemApplication.
+						class, args);
 	}
 
 }
